@@ -14,15 +14,9 @@ API REST para la gestión y consulta de precios de productos, desarrollado en Ja
 
 ---
 
-## 📦 Construcción y despliegue con Docker
+## 📦 Despliegue con Docker
 
-### 1. **Construir la imagen Docker**
-
-```bash
-docker build -t victor220686/inditex-service:latest .
-```
-
-### 2. **DockerHub**
+### 1. **DockerHub**
 
 https://hub.docker.com/repository/docker/victor220686/inditex-service/
 
