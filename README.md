@@ -22,11 +22,9 @@ API REST para la gestión y consulta de precios de productos, desarrollado en Ja
 docker build -t victor220686/inditex-service:latest .
 ```
 
-### 2. **Subir la imagen a DockerHub**
+### 2. **DockerHub**
 
-```bash
-docker push victor220686/inditex-service:latest
-```
+https://hub.docker.com/repository/docker/victor220686/inditex-service/
 
 ---
 
@@ -116,14 +114,7 @@ GET http://localhost:8080/prices?date=2020-06-16-21.00.00&productId=35455&brandI
 
 ### 1. **Importar colección Postman**
 
-Descarga la colección actualizada:
-
-[Descargar Inditex Postman Collection](sandbox:/mnt/data/inditex_postman_collection_updated.json)
-
-Importa en Postman para ejecutar dos escenarios:
-
-- **Get Prices - Success Case**
-- **Get Prices - No Results**
+Coleccion incluida en la raiz del proyecto 'inditex_postman_collection.json'
 
 ### 2. **Ejecutar con Newman (CLI)**
 
